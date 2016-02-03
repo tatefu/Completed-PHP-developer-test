@@ -1,0 +1,160 @@
+body{
+	background-color: white;
+	font-family: Arial;
+}
+
+#page-wrap {
+     margin: 0 auto;
+     width: 900px;
+}
+
+#mainNav{
+	width: 900px;
+	height: 30px;
+	margin: auto 0;	
+}
+.quirk{
+	width: 395px;
+	font-family: Arial, Georgia;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 0px 0px 10px;
+	float: left;
+	color: white;
+	height: 40px;
+	background-color: #00bfff;
+}
+
+#mainNav ul{
+	background-color: #00ffff;
+	margin: 0;
+	float: right;
+	width: 455px;
+	height: 50px;
+	color: white;
+	padding: 0px 10px 0 30px;;
+}
+
+#mainNav ul li{
+	list-style-type: none;
+	font-variant: small-caps;
+	display: inline-block;
+	padding: 20px 30px 0 10px;
+	width: 20%;
+	text-align:center;
+	height: 50px;
+	font-weight: bold;	
+}
+/*
+#mainNav ul li:nth-child(odd)
+{
+	background-color: #00bfff; 
+}*/
+
+#mainNav ul li a{
+	padding-top: 20;
+	text-decoration: none;
+	color: white;
+	font-style:normal;
+	font-size: 1.2em;	
+}
+
+#mainNav ul li a:hover{
+	color: black;
+}
+
+#mainCon{
+	display: block;
+	width: 900px;
+	background-color: #666;
+	color: black;
+	margin-top: 50px;
+}
+
+#SignUpform{
+	width: 450px;
+	float: left;
+}
+
+#SignUpform form{
+	width: 400px;
+	margin-left: 50px;
+	
+}
+#SignUpform hr, h2, select, option, p, label, input {
+	color: #00bfff;
+}
+
+
+#SignUpform hr{
+	width: 360px;
+	margin: 5px 5px;
+	height: 1px;
+	border-color: #00bfff;
+	background-color: #00bfff;
+	
+}
+
+#SignUpform form label{
+	margin: 0px;
+	font-weight: bold;	
+}
+
+#SignUpform form input{
+	margin: 0px;
+	border-color: #00bfff;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#SignUpform select{
+	padding: 4px 0 4px 0;
+	font-size: 1.0em;
+	background-color:white;
+}
+.signup{
+	margin: 5px;
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+	background-color: #00bfff;
+	color: white;
+}
+
+#SignUpFeedBack{
+	width: 400px;
+	float: right;
+	height: 400px;
+	background-color: #00bfff;
+	color: white;
+	padding: 20px;
+}
+
+.errorList{
+	background-color: yellow;
+	padding:5px 0 5px 10px;
+	width: 350px;
+	border: solid red 1px;
+}
+.errorList li{
+	list-style:none;
+	padding-top: 5px;
+	color: red; 
+
+}
+
+#signup-form .error {
+   color: red;
+   border-color:red;
+   font-size: 1.0em;;
+   font-style: italic;
+}
+
+
+/*-------------------Media Query---------------*/
+
+
+@media (min-width: 540px) and (max-width: 540px){
+
+	}

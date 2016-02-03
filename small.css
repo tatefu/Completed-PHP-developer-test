@@ -1,0 +1,10 @@
+@media (max-width: 450px){
+	#page-wrap{
+		max-width: 900px;
+		width: 100%;
+		min-height: 500px;
+		height: 100%;
+	}
+
+
+}
