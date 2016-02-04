@@ -1,10 +1,144 @@
 @media (max-width: 450px){
 	#page-wrap{
+		padding: 15px; 
 		max-width: 900px;
 		width: 100%;
 		min-height: 500px;
 		height: 100%;
 	}
+
+	#mainNav{
+	max-width: 455px;
+	width: 100%;
+	height: 30px;
+	max-height: 30px;
+	height: 100%;
+}
+.quirk{
+	max-width: 375px;
+	width: 97%;
+	font-family: Arial, Georgia;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 0px 0px 10px;
+	float: left;
+	color: white;
+	height: 40px;
+	background-color: #00bfff;
+}
+
+#mainNav ul{
+	background-color: #00ffff;
+	margin: 0;
+	float: right;
+	max-width: 455px; 
+	width: 100%;
+	height: 50px;
+	color: white;
+	padding: 0px 0px 0 0px;;
+}
+
+#mainNav ul li{
+	list-style-type: none;
+	font-variant: small-caps;
+	display: inline-block;
+	padding: 20px 0px 0 10px;
+	width: 20%;
+	text-align:center;
+	height: 50px;
+	font-weight: bold;	
+}
+
+#mainCon{
+	display: block;
+	width: 100%;
+	max-width: 900px;
+	background-color: #666;
+	color: black;
+	margin-top: 50px;
+}
+
+#SignUpform{
+	width: 100%;
+	max-width: 450px;
+	float: left;
+}
+
+#SignUpform form{
+	max-width: 400px;
+	width: 100%;
+	margin-left: 00px;
+	
+}
+#SignUpform hr, h2, select, option, p, label, input {
+	color: #00bfff;
+}
+
+
+#SignUpform hr{
+	max-width: 360px;
+	width: 85%;
+	margin: 5px 5px;
+	height: 1px;
+	border-color: #00bfff;
+	background-color: #00bfff;
+	
+}
+
+#SignUpform form label{
+	margin: 0px;
+	font-weight: bold;	
+}
+
+#SignUpform form input{
+	margin: 0px;
+	width: 100%;
+	max-width: 300px;
+	border-color: #00bfff;
+	padding: 5px;
+	font-weight: bold;
+}
+
+input[name='signup']{
+	width: 20%;
+	max-width: 50px;
+}
+
+#SignUpform select{
+	width: 100%;
+	max-width: 300px;
+	padding: 4px 0 4px 0;
+	font-size: 1.0em;
+	background-color:white;
+}
+
+#SignUpform .terms{
+	width: 100%;
+	max-width: 300px;
+	padding: 4px 0 4px 0;
+	font-size: 1.0em;
+	background-color:white;
+}
+
+.signup{
+	margin: 5px;
+	max-width: 50px;
+	width: 20%;
+	padding: 5px;
+	text-align: center;
+	background-color: #00bfff;
+	color: white;
+}
+
+#SignUpFeedBack{
+	max-width: 300px;
+	width: 100%;
+	height: 400px;
+	background-color: #00bfff;
+	color: white;
+	padding: 10px;
+}
 
 
 }
